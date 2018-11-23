@@ -486,3 +486,328 @@
 2018-11-23 15:00:13,646 [http-nio-8080-exec-5] INFO  marytts.R 1    PronunciationModel took 1 ms
 2018-11-23 15:00:13,646 [http-nio-8080-exec-5] INFO  marytts.R 1    AcousticModeller took 8 ms
 2018-11-23 15:00:13,646 [http-nio-8080-exec-5] INFO  marytts.R 1    Synthesis took 38 ms
+2018-11-23 15:14:51,313 [http-nio-8080-exec-1] INFO  marytts.main Mary starting up...
+2018-11-23 15:14:51,316 [http-nio-8080-exec-1] INFO  marytts.main Specification version 5.2
+2018-11-23 15:14:51,317 [http-nio-8080-exec-1] INFO  marytts.main Implementation version unknown
+2018-11-23 15:14:51,317 [http-nio-8080-exec-1] INFO  marytts.main Running on a Java 1.8.0_181 implementation by Oracle Corporation, on a Windows 10 platform (amd64, 10.0)
+2018-11-23 15:14:51,389 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.Synthesis'
+2018-11-23 15:14:51,396 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TextToMaryXML'
+2018-11-23 15:14:51,398 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SableParser'
+2018-11-23 15:14:51,398 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SSMLParser'
+2018-11-23 15:14:51,399 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.APMLParser'
+2018-11-23 15:14:51,400 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.EmotionmlParser'
+2018-11-23 15:14:51,400 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JTokeniser'
+2018-11-23 15:14:51,401 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.DummyTokens2Words'
+2018-11-23 15:14:51,401 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.ProsodyGeneric'
+2018-11-23 15:14:51,403 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PronunciationModel'
+2018-11-23 15:14:51,405 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.TargetFeatureLister'
+2018-11-23 15:14:51,405 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HalfPhoneTargetFeatureLister'
+2018-11-23 15:14:51,406 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.AcousticModeller'
+2018-11-23 15:14:51,408 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedAcoustparamsExtractor'
+2018-11-23 15:14:51,409 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.RealisedDurationsExtractor'
+2018-11-23 15:14:51,410 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.HTSEngine'
+2018-11-23 15:14:51,411 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.PraatTextGridGenerator'
+2018-11-23 15:14:51,413 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.JTokeniser'
+2018-11-23 15:14:51,414 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Preprocess'
+2018-11-23 15:14:51,583 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_US.)'
+2018-11-23 15:14:51,584 [http-nio-8080-exec-1] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_US.txt' for locale 'en_US' does not exist. Ignoring.
+2018-11-23 15:14:51,627 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.JPhonemiser(en_GB.)'
+2018-11-23 15:14:51,627 [http-nio-8080-exec-1] INFO  marytts.JPhonemiser User dictionary '.\user-dictionaries\userdict-en_GB.txt' for locale 'en_GB' does not exist. Ignoring.
+2018-11-23 15:14:51,647 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.Prosody'
+2018-11-23 15:14:51,648 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.SimplePhoneme2AP(en_US)'
+2018-11-23 15:14:51,648 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.language.en.PronunciationModel'
+2018-11-23 15:14:51,649 [http-nio-8080-exec-1] INFO  marytts.ModuleRegistry Now initiating mary module 'marytts.modules.OpenNLPPosTagger(en,en.pos)'
+2018-11-23 15:14:51,653 [http-nio-8080-exec-1] INFO  marytts.UnitSelectionSynthesizer started.
+2018-11-23 15:14:51,654 [http-nio-8080-exec-1] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->TARGETFEATURES, locale null).
+2018-11-23 15:14:51,654 [http-nio-8080-exec-1] INFO  marytts.HTSEngine Module started (TARGETFEATURES->AUDIO, locale null).
+2018-11-23 15:14:51,672 [http-nio-8080-exec-1] INFO  marytts.HMMData Loading Tree Set in CARTs:
+2018-11-23 15:14:51,724 [http-nio-8080-exec-1] INFO  marytts.HMMData Loading GV Model Set:
+2018-11-23 15:14:51,802 [http-nio-8080-exec-1] INFO  marytts.Voice Registering voice `cmu-slt-hsmm': female, locale en_US
+2018-11-23 15:14:51,802 [http-nio-8080-exec-1] INFO  marytts.Voice New default voice for locale en_US: cmu-slt-hsmm (desire 0)
+2018-11-23 15:14:51,802 [http-nio-8080-exec-1] INFO  marytts.HMMSynthesizer started.
+2018-11-23 15:14:51,802 [http-nio-8080-exec-1] INFO  marytts.Synthesis Module started (ACOUSTPARAMS->AUDIO, locale null).
+2018-11-23 15:14:51,803 [http-nio-8080-exec-1] INFO  marytts.HMMSynthesizer Starting power-on self test.
+2018-11-23 15:14:51,826 [http-nio-8080-exec-1] INFO  marytts.HTSEngine Using prosody from acoustparams.
+2018-11-23 15:14:51,828 [http-nio-8080-exec-1] INFO  marytts.HTSEngine Number of models in sentence numModel=7  Total number of states numState=35
+2018-11-23 15:14:51,828 [http-nio-8080-exec-1] INFO  marytts.HTSEngine Total number of frames=147  Number of voiced frames=89
+2018-11-23 15:14:51,832 [http-nio-8080-exec-1] INFO  marytts.ParameterGeneration Parameter generation for MGC: 
+2018-11-23 15:14:51,832 [http-nio-8080-exec-1] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 107
+2018-11-23 15:14:51,834 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=23
+2018-11-23 15:14:51,839 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=54
+2018-11-23 15:14:51,843 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=38
+2018-11-23 15:14:51,844 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=20
+2018-11-23 15:14:51,844 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=13
+2018-11-23 15:14:51,845 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (5)  number of iterations=21
+2018-11-23 15:14:51,846 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (6)  number of iterations=7
+2018-11-23 15:14:51,846 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (7)  number of iterations=4
+2018-11-23 15:14:51,846 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (8)  number of iterations=11
+2018-11-23 15:14:51,847 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (9)  number of iterations=19
+2018-11-23 15:14:51,847 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (10)  number of iterations=16
+2018-11-23 15:14:51,848 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (11)  number of iterations=9
+2018-11-23 15:14:51,848 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (12)  number of iterations=2
+2018-11-23 15:14:51,848 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (13)  number of iterations=13
+2018-11-23 15:14:51,849 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (14)  number of iterations=12
+2018-11-23 15:14:51,849 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (15)  number of iterations=14
+2018-11-23 15:14:51,849 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (16)  number of iterations=15
+2018-11-23 15:14:51,849 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (17)  number of iterations=14
+2018-11-23 15:14:51,850 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (18)  number of iterations=19
+2018-11-23 15:14:51,850 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (19)  number of iterations=12
+2018-11-23 15:14:51,851 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (20)  number of iterations=17
+2018-11-23 15:14:51,851 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (21)  number of iterations=23
+2018-11-23 15:14:51,851 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (22)  number of iterations=12
+2018-11-23 15:14:51,852 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (23)  number of iterations=18
+2018-11-23 15:14:51,852 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (24)  number of iterations=12
+2018-11-23 15:14:51,852 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (25)  number of iterations=11
+2018-11-23 15:14:51,853 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (26)  number of iterations=13
+2018-11-23 15:14:51,853 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (27)  number of iterations=9
+2018-11-23 15:14:51,853 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (28)  number of iterations=13
+2018-11-23 15:14:51,853 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (29)  number of iterations=8
+2018-11-23 15:14:51,854 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (30)  number of iterations=11
+2018-11-23 15:14:51,854 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (31)  number of iterations=12
+2018-11-23 15:14:51,854 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (32)  number of iterations=7
+2018-11-23 15:14:51,855 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (33)  number of iterations=8
+2018-11-23 15:14:51,855 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (34)  number of iterations=12
+2018-11-23 15:14:51,855 [http-nio-8080-exec-1] INFO  marytts.ParameterGeneration Using f0 from maryXML acoustparams
+2018-11-23 15:14:51,855 [http-nio-8080-exec-1] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 107
+2018-11-23 15:14:51,856 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=16
+2018-11-23 15:14:51,856 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=2
+2018-11-23 15:14:51,857 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=2
+2018-11-23 15:14:51,857 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=8
+2018-11-23 15:14:51,858 [http-nio-8080-exec-1] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=26
+2018-11-23 15:14:51,866 [http-nio-8080-exec-1] INFO  marytts.HMMSynthesizer Power-on self test complete.
+2018-11-23 15:14:51,867 [http-nio-8080-exec-1] INFO  marytts.TextToMaryXML Module started (TEXT->RAWMARYXML, locale null).
+2018-11-23 15:14:51,867 [http-nio-8080-exec-1] INFO  marytts.TextToMaryXML Starting power-on self test.
+2018-11-23 15:14:51,867 [http-nio-8080-exec-1] WARN  marytts.TextToMaryXML Locale is null, overriding with en_US
+2018-11-23 15:14:51,868 [http-nio-8080-exec-1] WARN  marytts.TextToMaryXML Locale is null, overriding with en_US
+2018-11-23 15:14:51,868 [http-nio-8080-exec-1] INFO  marytts.TextToMaryXML Power-on self test complete.
+2018-11-23 15:14:52,026 [http-nio-8080-exec-1] INFO  marytts.SableParser Module started (SABLE->RAWMARYXML, locale null).
+2018-11-23 15:14:52,026 [http-nio-8080-exec-1] INFO  marytts.SableParser Starting power-on self test.
+2018-11-23 15:14:52,027 [http-nio-8080-exec-1] INFO  marytts.SableParser Power-on self test complete.
+2018-11-23 15:14:52,069 [http-nio-8080-exec-1] INFO  marytts.SSMLParser Module started (SSML->RAWMARYXML, locale null).
+2018-11-23 15:14:52,070 [http-nio-8080-exec-1] INFO  marytts.SSMLParser Starting power-on self test.
+2018-11-23 15:14:52,070 [http-nio-8080-exec-1] INFO  marytts.SSMLParser Power-on self test complete.
+2018-11-23 15:14:52,108 [http-nio-8080-exec-1] INFO  marytts.APMLParser Module started (APML->RAWMARYXML, locale null).
+2018-11-23 15:14:52,108 [http-nio-8080-exec-1] INFO  marytts.APMLParser Starting power-on self test.
+2018-11-23 15:14:52,108 [http-nio-8080-exec-1] INFO  marytts.APMLParser Power-on self test complete.
+2018-11-23 15:14:52,144 [http-nio-8080-exec-1] INFO  marytts.EmotionmlParser Module started (EMOTIONML->RAWMARYXML, locale null).
+2018-11-23 15:14:52,144 [http-nio-8080-exec-1] INFO  marytts.EmotionmlParser Starting power-on self test.
+2018-11-23 15:14:52,144 [http-nio-8080-exec-1] INFO  marytts.EmotionmlParser Power-on self test complete.
+2018-11-23 15:14:52,145 [http-nio-8080-exec-1] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale null).
+2018-11-23 15:14:52,183 [http-nio-8080-exec-1] INFO  marytts.JTokeniser Starting power-on self test.
+2018-11-23 15:14:52,184 [http-nio-8080-exec-1] INFO  marytts.JTokeniser Power-on self test complete.
+2018-11-23 15:14:52,184 [http-nio-8080-exec-1] INFO  marytts.DummyTokens2Words Module started (TOKENS->WORDS, locale null).
+2018-11-23 15:14:52,184 [http-nio-8080-exec-1] INFO  marytts.DummyTokens2Words Starting power-on self test.
+2018-11-23 15:14:52,184 [http-nio-8080-exec-1] INFO  marytts.DummyTokens2Words Power-on self test complete.
+2018-11-23 15:14:52,191 [http-nio-8080-exec-1] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale null).
+2018-11-23 15:14:52,191 [http-nio-8080-exec-1] INFO  marytts.Prosody Starting power-on self test.
+2018-11-23 15:14:52,192 [http-nio-8080-exec-1] INFO  marytts.Prosody Power-on self test complete.
+2018-11-23 15:14:52,192 [http-nio-8080-exec-1] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale null).
+2018-11-23 15:14:52,192 [http-nio-8080-exec-1] INFO  marytts.PronunciationModel Starting power-on self test.
+2018-11-23 15:14:52,193 [http-nio-8080-exec-1] INFO  marytts.PronunciationModel Power-on self test complete.
+2018-11-23 15:14:52,193 [http-nio-8080-exec-1] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2018-11-23 15:14:52,193 [http-nio-8080-exec-1] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2018-11-23 15:14:52,193 [http-nio-8080-exec-1] INFO  marytts.TargetFeatureLister Module started (ACOUSTPARAMS->HALFPHONE_TARGETFEATURES, locale null).
+2018-11-23 15:14:52,193 [http-nio-8080-exec-1] INFO  marytts.TargetFeatureLister Starting power-on self test.
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.TargetFeatureLister Power-on self test complete.
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.AcousticModeller Module started (ALLOPHONES->ACOUSTPARAMS, locale null).
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.AcousticModeller Starting power-on self test.
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.AcousticModeller Power-on self test complete.
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.Realised acoustparams extractor Module started (AUDIO->REALISED_ACOUSTPARAMS, locale null).
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.Realised acoustparams extractor Starting power-on self test.
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.Realised acoustparams extractor Power-on self test complete.
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.Realised durations extractor Module started (AUDIO->REALISED_DURATIONS, locale null).
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.Realised durations extractor Starting power-on self test.
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.Realised durations extractor Power-on self test complete.
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.Praat TextGrid generator Module started (REALISED_ACOUSTPARAMS->PRAAT_TEXTGRID, locale null).
+2018-11-23 15:14:52,194 [http-nio-8080-exec-1] INFO  marytts.Praat TextGrid generator Starting power-on self test.
+2018-11-23 15:14:52,195 [http-nio-8080-exec-1] INFO  marytts.Praat TextGrid generator Power-on self test complete.
+2018-11-23 15:14:52,195 [http-nio-8080-exec-1] INFO  marytts.JTokeniser Module started (RAWMARYXML->TOKENS, locale en).
+2018-11-23 15:14:52,211 [http-nio-8080-exec-1] INFO  marytts.JTokeniser Starting power-on self test.
+2018-11-23 15:14:52,212 [http-nio-8080-exec-1] INFO  marytts.JTokeniser Power-on self test complete.
+2018-11-23 15:14:52,212 [http-nio-8080-exec-1] INFO  marytts.Preprocess Module started (TOKENS->WORDS, locale en).
+2018-11-23 15:14:52,212 [http-nio-8080-exec-1] INFO  marytts.Preprocess Starting power-on self test.
+2018-11-23 15:14:52,212 [http-nio-8080-exec-1] INFO  marytts.Preprocess Power-on self test complete.
+2018-11-23 15:14:52,212 [http-nio-8080-exec-1] INFO  marytts.JPhonemiser Module started (PARTSOFSPEECH->PHONEMES, locale en_US).
+2018-11-23 15:14:52,212 [http-nio-8080-exec-1] INFO  marytts.JPhonemiser Starting power-on self test.
+2018-11-23 15:14:52,212 [http-nio-8080-exec-1] INFO  marytts.JPhonemiser Power-on self test complete.
+2018-11-23 15:14:52,212 [http-nio-8080-exec-1] INFO  marytts.JPhonemiser Module started (PARTSOFSPEECH->PHONEMES, locale en_GB).
+2018-11-23 15:14:52,212 [http-nio-8080-exec-1] INFO  marytts.JPhonemiser Starting power-on self test.
+2018-11-23 15:14:52,213 [http-nio-8080-exec-1] INFO  marytts.JPhonemiser Power-on self test complete.
+2018-11-23 15:14:52,216 [http-nio-8080-exec-1] INFO  marytts.Prosody Module started (PHONEMES->INTONATION, locale en).
+2018-11-23 15:14:52,216 [http-nio-8080-exec-1] INFO  marytts.Prosody Starting power-on self test.
+2018-11-23 15:14:52,216 [http-nio-8080-exec-1] INFO  marytts.Prosody Power-on self test complete.
+2018-11-23 15:14:52,217 [http-nio-8080-exec-1] INFO  marytts.SimplePhoneme2AP Module started (SIMPLEPHONEMES->ACOUSTPARAMS, locale en_US).
+2018-11-23 15:14:52,217 [http-nio-8080-exec-1] INFO  marytts.SimplePhoneme2AP Starting power-on self test.
+2018-11-23 15:14:52,219 [http-nio-8080-exec-1] INFO  marytts.SimplePhoneme2AP Power-on self test complete.
+2018-11-23 15:14:52,220 [http-nio-8080-exec-1] INFO  marytts.PronunciationModel Module started (INTONATION->ALLOPHONES, locale en).
+2018-11-23 15:14:52,220 [http-nio-8080-exec-1] INFO  marytts.PronunciationModel Starting power-on self test.
+2018-11-23 15:14:52,220 [http-nio-8080-exec-1] INFO  marytts.PronunciationModel Power-on self test complete.
+2018-11-23 15:14:52,220 [http-nio-8080-exec-1] INFO  marytts.OpenNLPPosTagger Module started (WORDS->PARTSOFSPEECH, locale en).
+2018-11-23 15:14:52,848 [http-nio-8080-exec-1] INFO  marytts.OpenNLPPosTagger Starting power-on self test.
+2018-11-23 15:14:52,848 [http-nio-8080-exec-1] INFO  marytts.OpenNLPPosTagger Power-on self test complete.
+2018-11-23 15:14:52,848 [http-nio-8080-exec-1] INFO  marytts.main Startup complete.
+2018-11-23 15:14:57,250 [http-nio-8080-exec-9] INFO  marytts.R 1 New request (input type "TEXT", output type "AUDIO", voice "cmu-slt-hsmm", audio "WAVE")
+2018-11-23 15:14:57,251 [http-nio-8080-exec-9] INFO  marytts.R 1 Handling request using the following modules:
+2018-11-23 15:14:57,251 [http-nio-8080-exec-9] INFO  marytts.R 1 - TextToMaryXML (marytts.modules.TextToMaryXML)
+2018-11-23 15:14:57,251 [http-nio-8080-exec-9] INFO  marytts.R 1 Next module: TextToMaryXML
+2018-11-23 15:14:57,252 [http-nio-8080-exec-9] INFO  marytts.R 1 Handling request using the following modules:
+2018-11-23 15:14:57,252 [http-nio-8080-exec-9] INFO  marytts.R 1 - JTokeniser (marytts.language.en.JTokeniser)
+2018-11-23 15:14:57,252 [http-nio-8080-exec-9] INFO  marytts.R 1 - Preprocess (marytts.language.en.Preprocess)
+2018-11-23 15:14:57,252 [http-nio-8080-exec-9] INFO  marytts.R 1 - OpenNLPPosTagger (marytts.modules.OpenNLPPosTagger)
+2018-11-23 15:14:57,252 [http-nio-8080-exec-9] INFO  marytts.R 1 - JPhonemiser (marytts.modules.JPhonemiser)
+2018-11-23 15:14:57,252 [http-nio-8080-exec-9] INFO  marytts.R 1 - Prosody (marytts.language.en.Prosody)
+2018-11-23 15:14:57,252 [http-nio-8080-exec-9] INFO  marytts.R 1 - PronunciationModel (marytts.language.en.PronunciationModel)
+2018-11-23 15:14:57,252 [http-nio-8080-exec-9] INFO  marytts.R 1 - AcousticModeller (marytts.modules.AcousticModeller)
+2018-11-23 15:14:57,252 [http-nio-8080-exec-9] INFO  marytts.R 1 - Synthesis (marytts.modules.Synthesis)
+2018-11-23 15:14:57,252 [http-nio-8080-exec-9] INFO  marytts.R 1 Next module: JTokeniser
+2018-11-23 15:14:57,254 [http-nio-8080-exec-9] INFO  marytts.R 1 Next module: Preprocess
+2018-11-23 15:14:57,425 [http-nio-8080-exec-9] INFO  marytts.R 1 Next module: OpenNLPPosTagger
+2018-11-23 15:14:57,429 [http-nio-8080-exec-9] INFO  marytts.R 1 Next module: JPhonemiser
+2018-11-23 15:14:57,431 [http-nio-8080-exec-9] INFO  marytts.R 1 Next module: Prosody
+2018-11-23 15:14:57,434 [http-nio-8080-exec-9] INFO  marytts.R 1 Next module: PronunciationModel
+2018-11-23 15:14:57,435 [http-nio-8080-exec-9] INFO  marytts.R 1 Next module: AcousticModeller
+2018-11-23 15:14:57,452 [http-nio-8080-exec-9] INFO  marytts.ParameterGeneration Parameter generation for LF0: 
+2018-11-23 15:14:57,453 [http-nio-8080-exec-9] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 378
+2018-11-23 15:14:57,454 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=8
+2018-11-23 15:14:57,458 [http-nio-8080-exec-9] INFO  marytts.R 1 Next module: Synthesis
+2018-11-23 15:14:57,483 [http-nio-8080-exec-9] INFO  marytts.HMMSynthesizer Synthesizing one sentence.
+2018-11-23 15:14:57,484 [http-nio-8080-exec-9] INFO  marytts.HTSEngine Using prosody from acoustparams.
+2018-11-23 15:14:57,486 [http-nio-8080-exec-9] INFO  marytts.HTSEngine Number of models in sentence numModel=25  Total number of states numState=125
+2018-11-23 15:14:57,486 [http-nio-8080-exec-9] INFO  marytts.HTSEngine Total number of frames=704  Number of voiced frames=378
+2018-11-23 15:14:57,489 [http-nio-8080-exec-9] INFO  marytts.ParameterGeneration Parameter generation for MGC: 
+2018-11-23 15:14:57,489 [http-nio-8080-exec-9] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 624
+2018-11-23 15:14:57,499 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=52
+2018-11-23 15:14:57,503 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=24
+2018-11-23 15:14:57,504 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=2
+2018-11-23 15:14:57,506 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=20
+2018-11-23 15:14:57,508 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=3
+2018-11-23 15:14:57,510 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (5)  number of iterations=2
+2018-11-23 15:14:57,512 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (6)  number of iterations=5
+2018-11-23 15:14:57,514 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (7)  number of iterations=20
+2018-11-23 15:14:57,516 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (8)  number of iterations=21
+2018-11-23 15:14:57,516 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (9)  number of iterations=3
+2018-11-23 15:14:57,517 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (10)  number of iterations=28
+2018-11-23 15:14:57,518 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (11)  number of iterations=18
+2018-11-23 15:14:57,519 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (12)  number of iterations=17
+2018-11-23 15:14:57,520 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (13)  number of iterations=24
+2018-11-23 15:14:57,521 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (14)  number of iterations=3
+2018-11-23 15:14:57,522 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (15)  number of iterations=24
+2018-11-23 15:14:57,524 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (16)  number of iterations=19
+2018-11-23 15:14:57,527 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (17)  number of iterations=24
+2018-11-23 15:14:57,528 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (18)  number of iterations=16
+2018-11-23 15:14:57,530 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (19)  number of iterations=16
+2018-11-23 15:14:57,531 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (20)  number of iterations=16
+2018-11-23 15:14:57,533 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (21)  number of iterations=17
+2018-11-23 15:14:57,534 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (22)  number of iterations=4
+2018-11-23 15:14:57,535 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (23)  number of iterations=13
+2018-11-23 15:14:57,536 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (24)  number of iterations=8
+2018-11-23 15:14:57,537 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (25)  number of iterations=16
+2018-11-23 15:14:57,538 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (26)  number of iterations=3
+2018-11-23 15:14:57,539 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (27)  number of iterations=12
+2018-11-23 15:14:57,542 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (28)  number of iterations=28
+2018-11-23 15:14:57,544 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (29)  number of iterations=16
+2018-11-23 15:14:57,545 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (30)  number of iterations=12
+2018-11-23 15:14:57,547 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (31)  number of iterations=13
+2018-11-23 15:14:57,548 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (32)  number of iterations=8
+2018-11-23 15:14:57,548 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (33)  number of iterations=14
+2018-11-23 15:14:57,549 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (34)  number of iterations=12
+2018-11-23 15:14:57,549 [http-nio-8080-exec-9] INFO  marytts.ParameterGeneration Using f0 from maryXML acoustparams
+2018-11-23 15:14:57,550 [http-nio-8080-exec-9] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 624
+2018-11-23 15:14:57,553 [http-nio-8080-exec-9] INFO  marytts.PStream    optimization stopped by reaching max number of iterations (no global variance applied)
+2018-11-23 15:14:57,553 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=101
+2018-11-23 15:14:57,554 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=7
+2018-11-23 15:14:57,554 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=9
+2018-11-23 15:14:57,555 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=24
+2018-11-23 15:14:57,555 [http-nio-8080-exec-9] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=5
+2018-11-23 15:14:57,556 [http-nio-8080-exec-9] INFO  marytts.R 1 Request processed in 306 ms.
+2018-11-23 15:14:57,557 [http-nio-8080-exec-9] INFO  marytts.R 1    TextToMaryXML took 0 ms
+2018-11-23 15:14:57,557 [http-nio-8080-exec-9] INFO  marytts.R 1    JTokeniser took 2 ms
+2018-11-23 15:14:57,557 [http-nio-8080-exec-9] INFO  marytts.R 1    Preprocess took 171 ms
+2018-11-23 15:14:57,557 [http-nio-8080-exec-9] INFO  marytts.R 1    OpenNLPPosTagger took 4 ms
+2018-11-23 15:14:57,557 [http-nio-8080-exec-9] INFO  marytts.R 1    JPhonemiser took 2 ms
+2018-11-23 15:14:57,557 [http-nio-8080-exec-9] INFO  marytts.R 1    Prosody took 3 ms
+2018-11-23 15:14:57,557 [http-nio-8080-exec-9] INFO  marytts.R 1    PronunciationModel took 1 ms
+2018-11-23 15:14:57,557 [http-nio-8080-exec-9] INFO  marytts.R 1    AcousticModeller took 23 ms
+2018-11-23 15:14:57,557 [http-nio-8080-exec-9] INFO  marytts.R 1    Synthesis took 98 ms
+2018-11-23 15:15:09,279 [http-nio-8080-exec-3] INFO  marytts.R 1 New request (input type "TEXT", output type "AUDIO", voice "cmu-slt-hsmm", audio "WAVE")
+2018-11-23 15:15:09,279 [http-nio-8080-exec-3] INFO  marytts.R 1 Handling request using the following modules:
+2018-11-23 15:15:09,280 [http-nio-8080-exec-3] INFO  marytts.R 1 - TextToMaryXML (marytts.modules.TextToMaryXML)
+2018-11-23 15:15:09,280 [http-nio-8080-exec-3] INFO  marytts.R 1 Next module: TextToMaryXML
+2018-11-23 15:15:09,280 [http-nio-8080-exec-3] INFO  marytts.R 1 Handling request using the following modules:
+2018-11-23 15:15:09,281 [http-nio-8080-exec-3] INFO  marytts.R 1 - JTokeniser (marytts.language.en.JTokeniser)
+2018-11-23 15:15:09,281 [http-nio-8080-exec-3] INFO  marytts.R 1 - Preprocess (marytts.language.en.Preprocess)
+2018-11-23 15:15:09,281 [http-nio-8080-exec-3] INFO  marytts.R 1 - OpenNLPPosTagger (marytts.modules.OpenNLPPosTagger)
+2018-11-23 15:15:09,281 [http-nio-8080-exec-3] INFO  marytts.R 1 - JPhonemiser (marytts.modules.JPhonemiser)
+2018-11-23 15:15:09,281 [http-nio-8080-exec-3] INFO  marytts.R 1 - Prosody (marytts.language.en.Prosody)
+2018-11-23 15:15:09,281 [http-nio-8080-exec-3] INFO  marytts.R 1 - PronunciationModel (marytts.language.en.PronunciationModel)
+2018-11-23 15:15:09,281 [http-nio-8080-exec-3] INFO  marytts.R 1 - AcousticModeller (marytts.modules.AcousticModeller)
+2018-11-23 15:15:09,281 [http-nio-8080-exec-3] INFO  marytts.R 1 - Synthesis (marytts.modules.Synthesis)
+2018-11-23 15:15:09,281 [http-nio-8080-exec-3] INFO  marytts.R 1 Next module: JTokeniser
+2018-11-23 15:15:09,281 [http-nio-8080-exec-3] INFO  marytts.R 1 Next module: Preprocess
+2018-11-23 15:15:09,282 [http-nio-8080-exec-3] INFO  marytts.R 1 Next module: OpenNLPPosTagger
+2018-11-23 15:15:09,282 [http-nio-8080-exec-3] INFO  marytts.R 1 Next module: JPhonemiser
+2018-11-23 15:15:09,283 [http-nio-8080-exec-3] INFO  marytts.R 1 Next module: Prosody
+2018-11-23 15:15:09,283 [http-nio-8080-exec-3] INFO  marytts.R 1 Next module: PronunciationModel
+2018-11-23 15:15:09,284 [http-nio-8080-exec-3] INFO  marytts.R 1 Next module: AcousticModeller
+2018-11-23 15:15:09,287 [http-nio-8080-exec-3] INFO  marytts.ParameterGeneration Parameter generation for LF0: 
+2018-11-23 15:15:09,287 [http-nio-8080-exec-3] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 145
+2018-11-23 15:15:09,287 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=4
+2018-11-23 15:15:09,288 [http-nio-8080-exec-3] INFO  marytts.R 1 Next module: Synthesis
+2018-11-23 15:15:09,288 [http-nio-8080-exec-3] INFO  marytts.HMMSynthesizer Synthesizing one sentence.
+2018-11-23 15:15:09,289 [http-nio-8080-exec-3] INFO  marytts.HTSEngine Using prosody from acoustparams.
+2018-11-23 15:15:09,290 [http-nio-8080-exec-3] INFO  marytts.HTSEngine Number of models in sentence numModel=8  Total number of states numState=40
+2018-11-23 15:15:09,290 [http-nio-8080-exec-3] INFO  marytts.HTSEngine Total number of frames=302  Number of voiced frames=145
+2018-11-23 15:15:09,292 [http-nio-8080-exec-3] INFO  marytts.ParameterGeneration Parameter generation for MGC: 
+2018-11-23 15:15:09,292 [http-nio-8080-exec-3] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 223
+2018-11-23 15:15:09,293 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=40
+2018-11-23 15:15:09,294 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=2
+2018-11-23 15:15:09,295 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=24
+2018-11-23 15:15:09,296 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=5
+2018-11-23 15:15:09,296 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=1
+2018-11-23 15:15:09,297 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (5)  number of iterations=2
+2018-11-23 15:15:09,297 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (6)  number of iterations=5
+2018-11-23 15:15:09,298 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (7)  number of iterations=11
+2018-11-23 15:15:09,298 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (8)  number of iterations=22
+2018-11-23 15:15:09,298 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (9)  number of iterations=20
+2018-11-23 15:15:09,299 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (10)  number of iterations=20
+2018-11-23 15:15:09,299 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (11)  number of iterations=15
+2018-11-23 15:15:09,299 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (12)  number of iterations=3
+2018-11-23 15:15:09,299 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (13)  number of iterations=19
+2018-11-23 15:15:09,300 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (14)  number of iterations=2
+2018-11-23 15:15:09,300 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (15)  number of iterations=3
+2018-11-23 15:15:09,300 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (16)  number of iterations=12
+2018-11-23 15:15:09,301 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (17)  number of iterations=17
+2018-11-23 15:15:09,301 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (18)  number of iterations=20
+2018-11-23 15:15:09,301 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (19)  number of iterations=10
+2018-11-23 15:15:09,301 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (20)  number of iterations=3
+2018-11-23 15:15:09,302 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (21)  number of iterations=11
+2018-11-23 15:15:09,302 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (22)  number of iterations=1
+2018-11-23 15:15:09,302 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (23)  number of iterations=13
+2018-11-23 15:15:09,302 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (24)  number of iterations=6
+2018-11-23 15:15:09,303 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (25)  number of iterations=2
+2018-11-23 15:15:09,303 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (26)  number of iterations=8
+2018-11-23 15:15:09,303 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (27)  number of iterations=11
+2018-11-23 15:15:09,303 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (28)  number of iterations=8
+2018-11-23 15:15:09,303 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (29)  number of iterations=7
+2018-11-23 15:15:09,304 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (30)  number of iterations=3
+2018-11-23 15:15:09,304 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (31)  number of iterations=11
+2018-11-23 15:15:09,304 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (32)  number of iterations=4
+2018-11-23 15:15:09,304 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (33)  number of iterations=6
+2018-11-23 15:15:09,305 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (34)  number of iterations=10
+2018-11-23 15:15:09,305 [http-nio-8080-exec-3] INFO  marytts.ParameterGeneration Using f0 from maryXML acoustparams
+2018-11-23 15:15:09,306 [http-nio-8080-exec-3] INFO  marytts.PStream Context-dependent global variance optimization: gvLength = 223
+2018-11-23 15:15:09,306 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (0)  number of iterations=2
+2018-11-23 15:15:09,306 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (1)  number of iterations=3
+2018-11-23 15:15:09,307 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (2)  number of iterations=4
+2018-11-23 15:15:09,308 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (3)  number of iterations=10
+2018-11-23 15:15:09,309 [http-nio-8080-exec-3] INFO  marytts.PStream Gradient GV optimization for feature: (4)  number of iterations=2
+2018-11-23 15:15:09,311 [http-nio-8080-exec-3] INFO  marytts.R 1 Request processed in 32 ms.
+2018-11-23 15:15:09,311 [http-nio-8080-exec-3] INFO  marytts.R 1    TextToMaryXML took 0 ms
+2018-11-23 15:15:09,311 [http-nio-8080-exec-3] INFO  marytts.R 1    JTokeniser took 0 ms
+2018-11-23 15:15:09,311 [http-nio-8080-exec-3] INFO  marytts.R 1    Preprocess took 1 ms
+2018-11-23 15:15:09,311 [http-nio-8080-exec-3] INFO  marytts.R 1    OpenNLPPosTagger took 0 ms
+2018-11-23 15:15:09,311 [http-nio-8080-exec-3] INFO  marytts.R 1    JPhonemiser took 1 ms
+2018-11-23 15:15:09,311 [http-nio-8080-exec-3] INFO  marytts.R 1    Prosody took 0 ms
+2018-11-23 15:15:09,311 [http-nio-8080-exec-3] INFO  marytts.R 1    PronunciationModel took 1 ms
+2018-11-23 15:15:09,311 [http-nio-8080-exec-3] INFO  marytts.R 1    AcousticModeller took 4 ms
+2018-11-23 15:15:09,311 [http-nio-8080-exec-3] INFO  marytts.R 1    Synthesis took 23 ms

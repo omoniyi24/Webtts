@@ -16,7 +16,6 @@ public class TextToSpeechController {
     public ModelAndView display(@ModelAttribute("textToSpeechModal") TextToSpeechModal textToSpeechModal,
                                 Model model ) {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("successMessage", textToSpeechModal.getWord());
 
         TextToSpeechService tts = new TextToSpeechService();
 
